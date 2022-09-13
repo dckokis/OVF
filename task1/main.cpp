@@ -27,7 +27,7 @@ template<typename T>
 T min_degree() {
 	T a = 1;
 	int pow = 0;
-	while(a != a/10){
+	while(a != a / 10) {
 		a /= 10;
 		pow--;
 	}
